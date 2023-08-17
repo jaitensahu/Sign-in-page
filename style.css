@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital@1&family=Poppins:wght@400;500;600;700&family=Spinnaker&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Spinnaker', sans-serif; */
+    font-family: 'Aleo', serif;
+}
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/014/115/original/tropical-leaves-background-design-summer-leaves-flat-illustration-simple-banner-with-copy-space-free-vector.jpg);
+    height: 100vh;
+    width: 100%;
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: white;
+    width: 65%;
+    height: 95%;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    min-width: 450px;
+    min-height: 600px;
+    box-shadow: 10px 10px 20px 2px #B2A684;
+    border-radius: 10px;
+}
+
+.sub-container1 {
+    background-color: #f8efd4;
+    /* background: linear-gradient(#FEEEBD, #89CF06); */
+    width: 50%;
+}
+.sub-container1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+}
+.sub-container2{
+    background-color: #f8efd4;
+     width: 50%;
+    height: 100%;
+} 
+.all{
+    
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo h1{
+    font-size: 1rem;
+}
+form{
+    width: 60%;
+    margin-top: 20px;
+    /* height: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+form .email{
+height: 30px;
+border: 1px solid black;
+border-radius: 5px;
+padding: 10px;
+}
+
+::placeholder{
+    font-size: 12px;
+}
+form .button{
+    padding: 7px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+.or{
+    margin-top:20px ;
+    display: flex;
+    align-items: center;
+}
+.or p{
+    font-size: 10px;
+}
+hr{
+    
+    width: 100px;
+    height: 2px;
+    background-color:#B2A684;
+}
+.sign-up{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+.sign-up a div{
+    
+ width: 100%;
+ border: 1px solid black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 5px;
+ padding: 10px;
+ border-radius: 5px;
+}
+.sign-up div img{
+    /* width: 20px; */
+    height: 20px;
+}
+.sign-up a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign-up p , a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sign-up div:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+@media screen and (max-width:1013px) {
+    .sub-container2{
+        width: 100%;
+        height: 100%;
+    }
+    .sub-container1{
+        width: 0;
+        transition: ease 0.1s ;
+    }
+
+    
+}
